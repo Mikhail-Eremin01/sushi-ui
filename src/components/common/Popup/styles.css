@@ -1,0 +1,97 @@
+/*Popup*/
+.popup {
+}
+
+.popup__overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 8;
+  background: rgba(7, 3, 55, 0.6);
+  backdrop-filter: blur(2px);
+}
+
+.popup__wrap::-webkit-scrollbar {
+  width: 6px;
+}
+.popup__wrap::-webkit-scrollbar-track {
+  background: #f2f5ff;
+  border-radius: 5px;
+}
+
+.popup__wrap::-webkit-scrollbar-thumb {
+  background-color: rgb(113,39,234);
+  border-radius: 5px;
+}
+
+.popup__wrap {
+  width: 90%;
+  height: auto;
+  max-width: 580px;
+  max-height: 90vh;
+  padding: 40px 50px 60px 50px;
+  background: #ffffff;
+  border-radius: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 9;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+  scrollbar-color: rgb(113,39,234);
+  scrollbar-width: thin;
+  scroll-margin: 400px;
+}
+
+.popup--overflow .popup__wrap {
+  overflow: visible;
+}
+
+.popup__close {
+  width: 40px;
+  height: 40px;
+  background: url('../../../assets/close.svg') center center no-repeat;
+  position: absolute;
+  top: 36px;
+  right: 36px;
+  z-index: 9;
+  cursor: pointer;
+}
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .popup__wrap {
+    max-width: 560px;
+    padding: 50px 40px;
+  }
+
+  .popup__close {
+    background-size: 32px 32px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .popup__wrap {
+    padding: 40px 20px 45px 20px;
+  }
+
+  .popup__close {
+    background-size: 28px 28px;
+    top: 26px;
+    right: 20px;
+  }
+}

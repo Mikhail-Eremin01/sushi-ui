@@ -1,0 +1,86 @@
+.info-founds__wrap {
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-color: rgba(113, 39, 234, 0.1);
+    position: sticky;
+}
+
+.info-founds__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-founds__info {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.info-founds__icon {
+    min-width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-founds__text {
+    font: 500 18px/27px 'Quicksand';
+}
+.info-founds__button {
+    max-height: 24px;
+}
+.info-founds__button > svg{
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+    .info-founds__wrap {
+        padding: 15px 25px;
+    }
+    .info-founds__text {
+        font: 500 17px/26px 'Quicksand';
+    }
+    .info-founds__info {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+    .info-founds__wrap {
+        padding: 15px;
+    }
+    .info-founds__text {
+        font: 500 16px/25px 'Quicksand';
+    }
+    .info-founds__info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .info-founds__content {
+        align-items: flex-start;
+    }
+    .info-founds__button {
+        max-height: 22px;
+    }
+    .info-founds__button > svg{
+        width: 22px;
+        height: 22px;
+    }
+    .info-founds__icon {
+        min-width: 44px;
+        height: 44px;
+        border-radius: 44px;        
+    }
+}

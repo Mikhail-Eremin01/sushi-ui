@@ -1,0 +1,13 @@
+.grid {
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.heading {
+  font-weight: 500;
+}
+
+.body {
+  font-weight: 700;
+}

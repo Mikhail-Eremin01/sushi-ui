@@ -1,0 +1,161 @@
+/* Users */
+
+.users {
+    
+}
+
+.users__title {
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+}
+
+.email {
+    margin-right: 30px;
+}
+
+.users__title-text {
+    font: 700 40px/50px 'Quicksand';
+    color: #070337;
+}
+
+.table-mobile__item .table-mobile__menu {
+    right: 0px;
+}
+
+.table-mobile__value {
+    word-wrap: break-word;
+}
+
+.button.users__add-button-mobile  {
+    padding: 12px 13px;
+}
+
+.button.users__add-button-mobile svg {
+    margin-right: 0;
+}
+
+.users__add-btn {
+    background: rgba(0, 0, 0, 0);
+    width: auto;
+    color: #7127EA;
+    border-radius: 60px;
+    border: 2px solid #7127EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+
+.users__table {
+    padding: 20px 40px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.users__table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.users__table table tr th {
+    padding: 5px 10px 25px 0;
+    font: 500 16px/24px 'Quicksand';
+    color: #07033780;
+    text-align: left;
+}
+
+.users__table table tr td {
+    padding: 30px 5px 30px 0;
+    border-top: 1px solid #EBEBEB;
+    font: 500 18px/24px 'Quicksand';
+    color: #070337;
+}
+
+.users__table table tr td.users__id {
+    color: #07033780;
+}
+
+.users__buttons {
+    display: flex;
+}
+
+.users__edit {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    background: url('../../../../assets/edit.svg') center center no-repeat rgba(113, 39, 234, 0.1);
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.users__delete {
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    background: url('../../../../assets/delete.svg') center center no-repeat rgba(229, 57, 53, 0.1);
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 767.98px) {
+    .users__title {
+        margin-bottom: 35px;
+    }
+
+    .users__title-text {
+        font: 700 34px/42px 'Quicksand';
+    }
+    .users__add-btn {
+        /* width: auto; */
+        height: 56px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .users__title {
+        margin-top: 30px;
+        margin-bottom: 0px;
+        justify-content: center;
+    }
+
+    .users__title-text {
+        font: 700 30px/38px 'Quicksand';
+    }
+
+    .users-mainContainer .table-mobile {
+        margin: 0px;
+        padding: 35px 15px;
+    }
+    .table-mobile__row .table-mobile__col {
+        width: 100%;
+        display: block;
+        margin-right: 20px;
+
+    }
+    .table-mobile__item .table-mobile__row {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .table-mobile__col .table-mobile__title {
+        font: 500 13px/20px 'Quicksand';
+    }
+
+    .table-mobile__col .table-mobile__value {
+        font: 500 16px/20px 'Quicksand';
+    }
+}

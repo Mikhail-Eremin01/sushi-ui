@@ -1,0 +1,92 @@
+/* Companies */
+
+.companies__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.companies__title-text {
+    font: 700 40px/50px 'Quicksand';
+    color: #070337;
+}
+
+.button.companies__add-button-mobile  {
+    padding: 12px 13px;
+}
+
+.button.companies__add-button-mobile svg {
+    margin-right: 0;
+}
+
+.companies__table__item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.companies__table__item_mainContent {   
+    width: 100%;
+}
+.companies__table__item:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.companies__accessdenied {
+    max-width: 600px;
+    margin: 0 auto;
+    font: 500 18px/27px 'Quicksand';
+    color: #777777;
+    text-align: center;
+}
+
+.companies__accessdenied-image {
+    margin-bottom: 40px;
+}
+
+.companies__accessdenied-title {
+    margin-bottom: 15px;
+    font: 700 22px/28px 'Quicksand';
+    color: #070337;
+}
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 991.98px) { 
+    .statistics__title-text {
+        font: 700 34px/42px 'Quicksand';
+    }
+
+    .statistics__title {
+        margin-bottom: 35px;
+    }
+
+    .statistics__noresults-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .statistics__noresults-title {
+        font: 700 21px/26px 'Quicksand';
+    }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 641.98px) {
+    .statistics__title-text {
+        font: 700 30px/38px 'Quicksand';
+    }
+}

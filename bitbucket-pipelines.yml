@@ -1,0 +1,77 @@
+image: node:16.13.0
+
+definitions:
+  steps:
+    - step: &install-python-and-aws
+        name: Install Python and AWS CLI
+        script:
+          - apt-get update
+          - apt-get -y install python-dev python-pip
+          - pip install awscli
+    - step: &build
+        name: Build
+        artifacts:
+          - build/**
+pipelines:
+  default:
+    - step:
+        caches:
+          - node
+        script: # Modify the commands below to build your repository.
+          - echo "Default pipeline"
+  custom:
+    deploy-to-test:
+      - step: *install-python-and-aws
+      - step:
+          <<: *build
+          script:
+            - npm install; unset CI; npm run build:test;
+      - step:
+          name: Deploy to S3
+          deployment: test
+          script:
+            - pipe: atlassian/aws-s3-deploy:0.2.4
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                S3_BUCKET: $TEST_BUCKET_NAME
+                ACL: 'public-read'
+                LOCAL_PATH: 'build'
+      - step:
+          name: Invalidate Cloudfront Cache
+          script:
+            - pipe: atlassian/aws-cloudfront-invalidate:0.1.1
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                DISTRIBUTION_ID: $TEST_DISTRIBUTION_ID
+    deploy-to-prod:
+      - step: *install-python-and-aws
+      - step:
+          <<: *build
+          trigger: manual
+          script:
+            - npm install; unset CI; npm run build;
+      - step:
+          name: Deploy to S3
+          deployment: production
+          script:
+            - pipe: atlassian/aws-s3-deploy:0.2.4
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                S3_BUCKET: $PROD_BUCKET_NAME
+                ACL: 'public-read'
+                LOCAL_PATH: 'build'
+      - step:
+          name: Invalidate Cloudfront Cache
+          script:
+            - pipe: atlassian/aws-cloudfront-invalidate:0.1.1
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                DISTRIBUTION_ID: $PROD_DISTRIBUTION_ID

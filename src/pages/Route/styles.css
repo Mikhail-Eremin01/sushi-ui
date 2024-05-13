@@ -1,0 +1,103 @@
+/* Route */
+
+.route {
+    
+}
+
+.route__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.route__title-text {
+    font: 700 40px/50px 'Quicksand';
+    color: #070337;
+}
+
+.route__table {
+    padding: 20px 40px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.route__table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.route__table table tr th {
+    padding: 5px 20px 25px 0;
+    font: 500 16px/24px 'Quicksand';
+    color: #07033780;
+    text-align: left;
+}
+
+.route__table table tr td {
+    padding: 30px 20px 30px 0;
+    border-top: 1px solid #EBEBEB;
+    font: 500 18px/24px 'Quicksand';
+    color: #070337;
+}
+
+.route__table table tr td.route__date {
+    white-space: nowrap;
+    color: #07033780;
+}
+
+.route__none {
+    text-align: center;
+}
+
+.route__map img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.route .table-mobile {
+    margin-bottom: 20px;
+}
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 800.98px) {
+    .route__title {
+        margin-bottom: 35px;
+    }
+
+    .route__title-text {
+        font: 700 34px/42px 'Quicksand';
+    }
+}
+
+@media (max-width: 575.98px) {
+    .route__title {
+        margin-bottom: 25px;
+    }
+
+    .route__title-text {
+        font: 700 30px/38px 'Quicksand';
+    }
+
+    .route .table-mobile {
+        margin-bottom: 0;
+    }
+
+    .route__map {
+        margin: 0 -15px;
+    }
+
+    .route__map img {
+        border-radius: 0;
+    }
+}

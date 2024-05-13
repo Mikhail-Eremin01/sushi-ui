@@ -1,0 +1,42 @@
+.cell {
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+  cursor: default;
+}
+
+.cell:not(.disabled) {
+  cursor: pointer;
+}
+
+.cell:not(.disabled):hover {
+  background: #7127ea;
+  color: #fff;
+}
+
+.selected {
+  background: #7127ea;
+  color: #fff;
+}
+
+.cell[hidden] {
+  display: none;
+}
+
+.cell[aria-disabled='true'] {
+  color: rgba(7, 3, 55, 0.25);
+}
+
+.prevSelectedDate {
+  background: rgba(113, 39, 234, 0.2);
+  color: #070337;
+}
+
+.cell:not(.disabled):focus {
+  background: #7127ea;
+  color: #fff;
+}

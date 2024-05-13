@@ -1,0 +1,40 @@
+/* CharityItem */
+.charity_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.charity__table__row {
+    display: flex;
+    flex-wrap: wrap;    
+    margin-bottom: 20px;
+}
+.charity__table__col {
+    display: block;    
+    margin: 0 10px;
+}
+.charity__table__col_3 {
+    width: calc(33% - 20px);
+}
+.charity__table__col_2 {
+    width: calc(50% - 20px);
+}
+.charity__table__title {    
+    font: 500 14px/24px 'Quicksand';
+    color: #999999;
+}
+.charity__table__value {
+    width: calc(90% - 10px);
+    font: 500 18px/24px 'Quicksand';
+    color: #070337;
+}
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {  }
+@media (max-width: 1199.98px) {  }
+@media (max-width: 991.98px) { }
+@media (max-width: 767.98px) {}
+@media (max-width: 642px) {}

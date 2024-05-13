@@ -1,0 +1,338 @@
+/* CompanyStatistics */
+
+.company-statistics {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-statistics__content {
+    flex-grow: 1;
+    padding: 20px;
+    background: url('../../assets/bg-qr.png') center center no-repeat #fff;
+    background-size: cover;
+}
+
+.company-statistics__wrap {
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+.company-statistics__language {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.company-statistics__logo {
+    width: 156px;
+    height: 102px;
+    margin: 0 auto 27px auto;
+    background: url('../../assets/logo-black.svg') center center no-repeat;
+}
+
+.company-statistics__name {
+    margin-bottom: 12px;
+    font: 700 22px/28px 'Quicksand';
+    color: #070337;
+    text-align: center;
+}
+
+.company-statistics__address {
+    margin-bottom: 30px;
+    font: 500 17px/22px 'Quicksand';
+    color: #777777;
+    text-align: center;
+}
+
+.company-statistics__button {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.company-statistics__button div {
+    display: inline-block;
+    padding: 15px 30px;
+    font: 500 18px/25px 'Quicksand';
+    color: #FFFFFF;
+    user-select: none;
+    cursor: pointer;
+    background: #7127EA;
+    border-radius: 40px;
+}
+
+.company-statistics__stat-total {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.company-statistics__stat-total-item {
+    width: calc(50% - 10px);
+    padding: 24px 30px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    font: 700 17px/25px 'Quicksand';
+    color: rgba(7, 3, 55, 0.7);
+}
+
+.company-statistics__total-amount {
+    margin-top: 3px;
+    font: 700 32px/34px 'Quicksand';
+    color: #070337;
+}
+
+.company-statistics__subtitle {
+    margin-bottom: 25px;
+    font: 700 22px/28px 'Quicksand';
+    color: #070337;
+}
+
+.company-statistics__stat {
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    border-radius: 22px;
+}
+
+.company-statistics__stat-item {
+    display: flex;
+    align-items: center;
+    padding: 28px 30px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.company-statistics__stat-item:last-child {
+    border-bottom: 0;
+}
+
+.company-statistics__stat-item svg {
+    flex: 0 0 44px;
+    margin-right: 26px;
+}
+
+.company-statistics__stat-name {
+    flex-grow: 1;
+    margin-right: 15px;
+    font: 700 20px/24px 'Quicksand';
+    color: #070337;
+}
+
+.company-statistics__stat-date {
+    font: 500 16px/24px 'Quicksand';
+    color: #888888;
+}
+
+.company-statistics__stat-amount {
+    font: 700 22px/20px 'Quicksand';
+    color: #070337;
+    white-space: nowrap;
+}
+
+.company-statistics__input {
+    margin-bottom: 20px;
+}
+
+.company-statistics__input-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.company-statistics__input-row .company-statistics__input {
+    width: calc(50% - 10px);
+}
+
+.company-statistics__error,
+.company-statistics__input .input--error {
+    margin-bottom: 10px;
+}
+
+.company-statistics__success {
+    text-align: center;
+}
+
+.company-statistics__success svg {
+    margin-bottom: 25px;
+}
+
+.company-statistics__success-title {
+    margin-bottom: 25px;
+    font: 700 32px/38px 'Quicksand';
+    color: #070337;
+}
+
+.company-statistics__success-desc {
+    margin-bottom: 25px;
+    color: #777777;
+}
+
+.company-statistics__footer {
+    padding: 40px 20px 35px 20px;
+    background: #EBEBEB;
+}
+
+.company-statistics__footer-wrap {
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+.company-statistics__footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.company-statistics__footer-phones {
+    width: calc(50% - 10px);
+}
+
+.company-statistics__footer-phones a {
+    display: block;
+    font: 700 20px/30px 'Quicksand';
+    color: #070337;
+    text-decoration: none;
+}
+
+.company-statistics__footer-phones a:first-child {
+    margin-bottom: 5px;
+}
+
+.company-statistics__footer-button {
+    width: calc(50% - 10px);
+}
+
+.company-statistics__footer-button a {
+    display: inline-block;
+    padding: 15px 30px;
+    border: 1px solid #070337;
+    border-radius: 40px;
+    font: 500 18px/25px 'Quicksand';
+    color: #070337;
+    text-decoration: none;
+}
+
+.company-statistics__footer-address {
+    padding-top: 30px;
+    border-top: 1px solid #dadade;
+    font: 500 14px/20px 'Quicksand';
+    color: #999999;
+    text-align: center;
+}
+
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) { }
+
+@media (max-width: 1199.98px) { }
+
+@media (max-width: 991.98px) { }
+
+@media (max-width: 767.98px) { }
+
+@media (max-width: 575.98px) {
+    .company-statistics__logo {
+        width: 124px;
+        height: 81px;
+        margin-bottom: 18px;
+        background-size: 124px 81px;
+    }
+
+    .company-statistics__name {
+        margin-bottom: 6px;
+        font: 700 19px/24px 'Quicksand';
+    }
+
+    .company-statistics__address {
+        margin-bottom: 15px;
+        font: 500 15px/20px 'Quicksand';
+    }
+
+    .company-statistics__button {
+        margin-bottom: 40px;
+    }
+
+    .company-statistics__button div {
+        padding: 7px 20px;
+        font: 500 16px/25px 'Quicksand'
+    }
+
+    .company-statistics__stat-total {
+        margin-bottom: 40px;
+    }
+
+    .company-statistics__stat-total-item {
+        padding: 18px 20px;
+        font: 700 15px/25px 'Quicksand';
+    }
+
+    .company-statistics__total-amount {
+        font: 700 28px/30px 'Quicksand';
+    }
+
+    .company-statistics__subtitle {
+        margin-bottom: 20px;
+        font: 700 19px/24px 'Quicksand';
+    }
+
+    .company-statistics__stat-item {
+        padding: 17px 20px 17px 15px;
+    }
+
+    .company-statistics__stat-item svg {
+        flex: 0 0 32px;
+        width: 32px;
+        height: 32px;
+        margin-right: 17px;
+    }
+
+    .company-statistics__stat-name {
+        margin-right: 10px;
+        font: 700 17px/20px 'Quicksand';
+    }
+
+    .company-statistics__stat-date {
+        font: 500 14px/20px 'Quicksand';
+    }
+
+    .company-statistics__stat-amount {
+        font: 700 19px/20px 'Quicksand';
+    }
+
+    .company-statistics__footer {
+        padding: 30px 20px 25px 20px;
+    }
+
+    .company-statistics__footer-phones a {
+        font: 700 16px/25px 'Quicksand';
+    }
+
+    .company-statistics__footer-button a {
+        padding: 7px 24px;
+        font: 500 16px/25px 'Quicksand';
+        white-space: nowrap;
+    }
+
+    .company-statistics__footer-address {
+        padding-top: 20px;
+        font: 500 13px/20px 'Quicksand';
+    }
+
+    .company-statistics__success svg {
+        width: 96px;
+        height: 96px;
+        margin-bottom: 20px;
+    }
+
+    .company-statistics__success-title {
+        margin-bottom: 15px;
+        font: 700 24px/30px 'Quicksand';
+    }
+
+}

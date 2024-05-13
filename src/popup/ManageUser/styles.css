@@ -1,0 +1,51 @@
+/* ManageUsers */
+
+.manage-user {
+
+}
+
+.manage-user__title {
+    margin-bottom: 25px;
+    font: 700 40px/50px 'Quicksand';
+    color: #070337;
+}
+
+.manage-user__input,
+.manage-user__error {
+    margin-bottom: 25px;
+}
+
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 767.98px) {
+    .manage-user__title {
+        margin-bottom: 20px;
+        font: 700 34px/42px 'Quicksand';
+    }
+    .manage-user__input,
+    .manage-user__error {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .manage-user__title {
+        margin-bottom: 15px;
+        font: 700 39px/38px 'Quicksand';
+    }
+    .manage-user__input,
+    .manage-user__error {
+        margin-bottom: 15px;
+    }
+}
+
+

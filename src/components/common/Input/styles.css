@@ -1,0 +1,127 @@
+/* Input */
+
+.input {
+}
+
+.input__wrap {
+  border: 2px solid #e1e1e1;
+  border-radius: 60px;
+  position: relative;
+  background: #fff;
+}
+
+.input__title {
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 35px;
+  font: 500 14px/20px 'Quicksand';
+  color: #999999;
+}
+
+.input__input {
+  width: 100%;
+  padding: 17px 35px 16px;
+
+  font: 500 18px/27px 'Quicksand';
+  color: #070337;
+  border: 0;
+  outline: none;
+  background: none;
+  border-radius: 12px;
+  appearance: none;
+}
+
+.input__input::-webkit-outer-spin-button,
+.input__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input__input::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.input__input::placeholder {
+  font: 500 18px/18px 'Quicksand';
+  color: #bbbbbb;
+}
+
+.input--show-title .input__title {
+  display: block;
+}
+
+.input--show-title .input__input {
+  padding: 24px 35px 6px;
+}
+
+.input--focused .input__wrap {
+  border-color: #b893f4;
+}
+
+.input--error .input__wrap {
+  border-color: #f5533d;
+}
+
+.input--error .input__input {
+  color: #f5533d;
+}
+
+.input__icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  margin-top: -12px;
+}
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .input__input {
+    /* padding: 13px 30px 13px; */
+    font: 500 17px/26px 'Quicksand';
+  }
+
+  .input__input::placeholder {
+    font: 500 17px/26px 'Quicksand';
+  }
+
+  .input__title {
+    left: 30px;
+  }
+
+  .input--show-title .input__input {
+    /* padding: 23px 30px 3px; */
+  }
+}
+
+@media (max-width: 575.98px) {
+  .input__input {
+    /* padding: 12px 25px 11px; */
+    font: 500 16px/25px 'Quicksand';
+  }
+
+  .input__input::placeholder {
+    font: 500 16px/25px 'Quicksand';
+  }
+
+  .input__title {
+    top: 3px;
+    left: 25px;
+  }
+
+  .input--show-title .input__input {
+    padding: 21px 25px 2px;
+  }
+}

@@ -1,0 +1,61 @@
+.userIsLocked_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.back_button {
+	width: 100%;
+}
+
+.userIsLocked_subtitleContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.userIsLocked_container svg {
+	/* width: 50px; */
+}
+
+.userIsLocked__title {
+	font: 700 35px/42px 'Quicksand';
+	text-align: center;
+}
+
+.userIsLocked_subtitleContainer {
+	margin-bottom: 30px;
+}
+
+.userIsLocked__subtitle {
+	font: 500 18px/27px 'Quicksand';
+	text-align: center;
+
+}
+
+@media (max-width: 991.98px) {
+	.userIsLocked__title {
+		font: 700 28px/32px 'Quicksand';
+	}
+	.userIsLocked__subtitle {
+		font: 500 16px/27px 'Quicksand';
+	}
+}
+
+@media (max-width: 767.98px) {  
+
+}
+
+@media (max-width: 575.98px) { 
+	.userIsLocked_container svg {
+		width: 100px;
+	}
+
+	.userIsLocked__title {
+		font: 700 22px/32px 'Quicksand';
+	}
+
+	.userIsLocked__subtitle {
+		font: 500 12px/27px 'Quicksand';
+	}
+}

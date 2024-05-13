@@ -1,0 +1,81 @@
+/* Button */
+
+.button {
+    padding: 19px 24px;
+    background: #7127EA;
+    border-radius: 60px;
+    font: 600 18px/22px 'Quicksand';
+    color: #FFFFFF;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.button--with-icon {
+    padding: 13px 24px
+}
+
+.button svg {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.button--outline {
+    border: 2px solid #7127EA;
+    background: #fff;
+    color: #7127EA;
+}
+
+.button--black {
+    background: #070337;
+}
+
+.button--red {
+    background: #E53935;
+}
+
+.button--red-outline {
+    border: 2px solid #E53935;
+    background: #fff;
+    color: #E53935;
+}
+
+.button--disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .button {
+        padding: 17px 24px 18px;
+        font: 600 17px/21px 'Quicksand';
+    }
+    
+    .button--with-icon {
+        padding: 17px 24px;
+    }
+    
+    .button--with-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .button {
+        padding: 16px 24px 16px;
+        font: 600 16px/20px 'Quicksand';
+    }
+}

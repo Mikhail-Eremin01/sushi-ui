@@ -1,0 +1,171 @@
+/* Global styles */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Quicksand, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    min-height: 100vh;
+    background: #F5F5F5;
+    position: relative;
+}
+
+.preloader {
+    background: url('./assets/bg.png') center bottom -600px no-repeat;
+    background-color: #5F55FF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.preloader::after {
+    content:"";
+    display: block;
+    width: 400px;
+    height: 96px;
+    background: url('./assets/preloader.svg') center center no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+/*Table mobile*/
+.table-mobile {
+    padding: 35px 30px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.table-mobile__item {
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.table-mobile__item:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.table-mobile__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.table-mobile__row:last-child {
+    margin-bottom: 0;
+}
+
+.table-mobile__col {
+    width: calc(50% - 10px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-mobile__title {
+    width: calc(30% - 10px);
+    font: 500 14px/24px 'Quicksand';
+    color: #999999;
+}
+
+.table-mobile__value {
+    width: calc(70% - 10px);
+    font: 500 17px/22px 'Quicksand';
+    color: #070337;
+}
+
+.table-mobile__menu {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.table-mobile__menu-button {
+    width: 24px;
+    height: 24px;
+    background: url('./assets/more-dots.svg') center center no-repeat;
+    cursor: pointer;
+}
+
+.table-mobile__menu .dropmenu {
+    top: 30px;
+}
+
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 991.98px) {
+    body {
+        font-size: 17px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .preloader::after {
+        width: 333px;
+        height: 80px;
+        background-size: 333px 80px;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    body {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .preloader::after {
+        width: 260px;
+        height: 62px;
+        background-size: 260px 62px;
+    }
+
+    .table-mobile {
+        padding: 25px 15px;
+        border-radius: 0;
+        margin: 0 -15px;
+    }
+
+    .table-mobile__row {
+        margin-bottom: 10px;
+    }
+
+    .table-mobile__col {
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+
+    .table-mobile__title,
+    .table-mobile__value {
+        width: 100%;
+    }
+    
+    .table-mobile__value {
+        word-break: break-all;
+    }
+}

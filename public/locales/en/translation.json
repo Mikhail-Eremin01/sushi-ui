@@ -1,0 +1,483 @@
+{
+  "App": {},
+  "Head": {
+    "schedule": "Calendar",
+    "statistics": "Payments",
+    "charities": "Charities",
+    "users": "Users",
+    "settings": "Settings",
+    "route": "Route",
+    "companies": "Companies",
+    "logout": "Log out"
+  },
+  "Auth": {
+    "title": "Sign in",
+    "text": "An email with an authorization code will be sent to you",
+    "text-code": "We have sent a four-digit code to your Email {{email}}, enter it in the appropriate field and click \"Continue\"",
+    "email": "Email",
+    "code": "Code",
+    "placeholder": "Enter your Email",
+    "placeholder-code": "Enter authorization code",
+    "button": "Sign in",
+    "button-code": "Continue",
+    "account": "Don't have an account?",
+    "link-register": "Registration",
+    "window_userLocked": {
+      "title": "Account Temporarily Locked",
+      "text": {
+        "firstParagraph": "You have exceeded the maximum number of login attempts.",
+        "secondParagraph": {
+          "firstPart": "You can try logging in again in",
+          "secondPart": "minute(s)."
+        }
+      },
+      "button": "Back"
+    }
+  },
+  "Register": {
+    "title": "Registration",
+    "email": "Email",
+    "email-placeholder": "Enter your Email",
+    "phone": "Phone",
+    "phone-placeholder": "Enter your phone",
+    "person": "Contact person",
+    "person-placeholder": "Enter contact person name",
+    "company": "Company",
+    "company-placeholder": "Enter company name",
+    "address": "Address",
+    "address-placeholder": "Enter company address",
+    "button": "Create an account",
+    "account": "Already have an account?",
+    "link-auth": "Sign In",
+    "success-title": "Registration successful",
+    "success-desc": "Thank you for signing up! You can now use the app."
+  },
+  "Users": {
+    "title": "Users",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "add-button": "Add user",
+    "edit": "Edit",
+    "delete": "Delete",
+    "tab": "Users"
+  },
+  "Statistics": {
+    "title": "Payments",
+    "date": "Date",
+    "email": "Email",
+    "company": "Company",
+    "status": "Status",
+    "payment-status": "Payment status",
+    "total": "Total amount",
+    "payout": "Percent paid",
+    "amountPaid": "Amount paid",
+    "amountKept": "Amount kept",
+    "timeSpent": "Spent time",
+    "distanceDriven": "Distance driven",
+    "funds": "Charitable foundations",
+    "add-button": "Add operation",   
+    "noresult-title": "No donations have been made yet",
+    "noresult-text": "You will see the list of donations made by your company once we transfer the money to organisation of your choice",
+    "edit": "Edit",
+    "delete": "Delete",
+    "files": "Files",
+    "proofOfMoneyTransfer": "Proof of money transfer",
+    "proofOfMoneyCollection": "Proof of money collection",
+    "send": "Send",
+    "send-money": "Transfer",
+    "check-status": "Get payment status",
+    "gen-check": "Generate check",
+    "suggestFunds": "Suggest funds"
+  },
+  "Charities": {
+    "title": "Charities",
+    "add-button": "Add fund",
+    "name": "Fund name",
+    "iban": "IBAN",
+    "message": "Message",
+    "reference": "Reference",
+    "country": "Country code",
+    "address": "Address",
+    "date": "Date",
+    "amount": "Amount, EUR",
+    "archiveId": "ArchiveId",
+    "status": "Status",
+    "noresult-title": "No funds have been added yet",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "Settings": {
+    "title": "Settings",
+    "company": "Company",
+    "company-placeholder": "Enter company name",
+    "address": "Address",
+    "address-placeholder": "Enter company address",
+    "charities": "Donate money to charities",
+    "suggest": "Suggest organization",
+    "instruction": "Instructions",
+    "instruction-placeholder": "Enter instructions",
+    "save": "Save changes",
+    "add-button": "Add address",
+    "msg-error": "Something went wrong",
+    "msg-success": "Changes saved successfully",
+    "msg-requireField": "Please fill in the required fields"
+  },
+  "Address": {
+    "tab": "Addresses",
+    "add-address": "Add address",
+    "save": "Save changes"
+  },
+  "Funds": {
+    "tab": "Charities",
+    "title": "Donate money to charities"
+  },
+  "Company": {
+    "tab": "Company",
+    "placeholder": "Company"
+  },
+  "Permissions": {
+    "tab": "Consents",
+    "email-notifications": {
+      "title": "Email notifications",
+      "new-features-released": "New features released",
+      "new-blog-posts": "New blog posts",
+      "payments-made": "Payments made"
+    },
+    "mention-company": {
+      "title": "Mention company",
+      "mention-company-website": "Use of company’s logo on CharityBo website/blog",
+      "mention-company-linkedin": "Mention company in CharityBo blog or LinkedIn posts"
+    }
+  },
+  "AboutUs": {
+    "tab": "About Us",
+    "organization": "Organization",
+    "registration-number": "Registration number",
+    "address": "Address",
+    "application-version": "Application version",
+    "aboutUs": "About Us",
+    "mainText": {
+      "firstParagraph": {
+        "firstPart": "We are a devoted group of enthusiasts, including software developers and a graphic designer, united by our passion for making the world a better place through the power of software and design.",
+        "boldText": "Our mission is to utilize our collective skills and expertise to create innovative solutions that address the challenges faced by society.",
+        "secondPart": "Your support is crucial in helping us realize our vision, and we are truly grateful for your trust in our endeavors."
+      },
+      "secondParagraph": {
+        "firstPart": "Our team consists of professional software developers with diverse skills and experiences in various technologies such as JavaScript, TypeScript, React, GraphQL, Serverless, Node.js, and AWS. We also have a talented graphic designer who can bring creative visual elements to your projects. If you ever require assistance with any of these areas, please do not hesitate to contact us at ",
+        "mail": " hi@charitybo.fi",
+        "secondPart": "We are eager to lend our expertise and collaborate with you on your projects."
+      },
+      "thirdParagraph": "Together, we can leverage the transformative potential of software and design to shape a brighter future. By supporting our efforts, you empower us to continue making a positive impact in the lives of those around us."
+    }
+  },
+  "Route": {
+    "title": "Route",
+    "date": "Date",
+    "date-placeholder": "Enter date",
+    "pin": "Pin",
+    "company": "Company",
+    "person": "Contact person",
+    "address": "Address",
+    "instructions": "Instructions",
+    "none": "No results",
+    "comments": "Comments",
+    "amount": "Amount"
+  },
+  "Calendar": {
+    "title": "Calendar",
+    "add-event": "Order a pickup",
+    "Calendar": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "times": "Times",
+      "more": "more events"
+    },
+    "Tooltip": {
+      "red": {
+        "title": "High",
+        "text": " - with the red indicator, our capacity for bottle collection bookings is currently reached, and we are unable to accept new orders at this moment. We appreciate your understanding and encourage you to check back later for open booking slots."
+      },
+      "yellow": {
+        "title": "Medium",
+        "text": " - the yellow indicator signifies that our availability for bottle collection services is moderate. You can still book your office bottle pickup, but we recommend doing so as soon as possible to secure your spot."
+      },
+      "green": {
+        "title": "Low",
+        "text": " - when the indicator is green, it means we have a high availability for bottle collection bookings. This is the best time to schedule your office bottle pickup, ensuring a smooth and timely service."
+      }
+    },
+    "orderBox": "Order a bin",
+    "info-founds-text1": "Please choose a charity to support. You can update this preference on the",
+    "info-founds-link": "‘Settings’",
+    "info-founds-text2": "page at any time. Thank you for your support!"
+  },
+  "NotFound": {
+    "text": "Sorry, page not found",
+    "home": "Go to homepage"
+  },
+  "CompanyStatistics": {
+    "order": "Order pickup",
+    "last-month": "Last month",
+    "total": "Total amount",
+    "latest-operations": "Latest transactions",
+    "form-title": "Order pickup",
+    "form-desc": "Fill out the form below to submit an export request",
+    "start-date": "Date",
+    "from": "From",
+    "to": "To",
+    "comment": "Comment",
+    "comment-placeholder": "Enter comment",
+    "submit": "Submit",
+    "success-title": "Application completed",
+    "success-desc": "We will contact you as soon as possible using the contacts you specified",
+    "success-button": "Back home",
+    "get-started": "Get started now"
+  },
+  "Companies": {
+    "title": "Companies",
+    "access-denied-title": "You do not have access to this page",
+    "add-button": "Add company",
+    "company-name": "Company",
+    "addresses": "Addresses",
+    "instructions":"Instructions",
+    "funds": "Funds",
+    "users": "Users",
+    "date": "Date"
+  },
+  "DownloadOperationsData": {
+    "download-button": "Download",
+    "wait": "Wait...",
+    "startDate": "start date",
+    "endDate": "end date"
+  },
+  "Popup": {
+    "ManageUser": {
+      "name": "Name",
+      "name-placeholder": "Enter user name",
+      "email": "Email",
+      "email-placeholder": "Enter user email",
+      "phone": "Phone",
+      "phone-placeholder": "Enter user phone",
+      "add-title": "Add user",
+      "edit-title": "Edit user",
+      "add-button": "Add",
+      "edit-button": "Edit"
+    },
+    "ManageOperation": {
+      "date": "Date",
+      "date-placeholder": "Enter date and time",
+      "funds": "Funds",
+      "company": "Company",
+      "status": "Status",
+      "status-process": "In processing",
+      "status-success": "Completed",
+      "status-fail": "Failed",
+      "total": "Amount, EUR",
+      "total-placeholder": "Enter amount",
+      "payout": "Percent paid, %",
+      "payout-placeholder": "Enter percent paid",
+      "amountPaid": "Amount paid, EUR",
+      "amountPaid-placeholder": "Enter amount paid",
+      "amountKept": "Amount kept, EUR",
+      "amountKept-placeholder": "Enter amount kept",
+      "timeSpent": "Spent time, min",
+      "timeSpent-placeholder": "Enter spent time",
+      "distanceDriven": "Distance driven, km",
+      "distanceDriven-placeholder": "Enter distance driven",
+      "add-title": "Add operation",
+      "edit-title": "Edit operation",
+      "add-button": "Add",
+      "edit-button": "Edit"
+    },
+    "ManageFund": {
+      "name": "Name",
+      "name-placeholder": "Enter name",
+      "country": "Country code",
+      "country-placeholder": "Enter code",
+      "address": "Address",
+      "address-placeholder": "Enter address",
+      "iban": "IBAN",
+      "iban-placeholder": "Enter IBAN",
+      "reference": "Reference number",
+      "reference-placeholder": "Enter reference number",
+      "message": "Message",
+      "message-placeholder": "Enter message",
+      "add-title": "Add fund",
+      "edit-title": "Edit fund",
+      "add-button": "Add",
+      "edit-button": "Edit",
+      "type-reference": "Reference",
+      "type-message": "Message"      
+    },
+    "ManageEvent": {
+      "start-date": "Date",
+      "from": "From",
+      "to": "To",
+      "comment": "Comment",
+      "comment-placeholder": "Enter comment",
+      "repeat": "Repeat every",
+      "repeat-label": "Repeat every",
+      "weekday": "Weekday",
+      "week": "Week",
+      "weeks": "Weeks",
+      "type-once": "Once",
+      "type-periodic": "Periodic",
+      "add-title": "Order a pickup",
+      "edit-title": "Edit pickup",
+      "add-button": "Add",
+      "edit-button": "Edit",
+      "wait": "Please wait...",
+      "delete": "Delete pickup",
+      "calendar-cancel": "Cancel",
+      "calendar-done": "Done",
+      "Months": {
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      },
+      "address": "Address",
+      "next-pickup": "Next pickup",
+      "not-available": "Unfortunately this day is fully booked please choose another one."
+    },
+    "ManageDayEvents": {
+      "schedule-for": "Calendar for",
+      "time": "Time",
+      "company": "Company",
+      "unknownName": "Name unknown"
+    },
+    "DeleteEvent": {
+      "title": "Delete pickup",
+      "header": "Delete pickup",
+      "text": "Do you want to cancel the pickup on that day?",
+      "delete-time": "Delete this day",
+      "delete-event": "Delete completely"
+    },
+    "EditEvent": {
+      "title": "Save changes",
+      "text": "Do you want to change the pickup on that day?",
+      "edit-time": "Save for this day",
+      "edit-event": "Save completely"
+    },
+    "TransferMoney": {
+      "title": "Transfer money",
+      "title-get-status": "Get transaction status",
+      "title-generate": "Generate check",
+      "text-get-status": "Do you want to get transaction status and generate check?",
+      "text-generate": "Do you want to generate check fro this transaction?",
+      "status": "Payment status",
+      "text": "Do you want to transfer money to this fund?",
+      "cancel": "Cancel",
+      "close": "Close",
+      "confirm": "Confirm",
+      "edit": "Edit fund",
+      "invalid-data": "You cannot continue without required data. Edit fund to continue"
+    },
+    "SuggestOrganization": {
+      "title": "Suggest organization",
+      "name": "Name",
+      "name-placeholder": "Enter organization name",
+      "url": "URL",
+      "url-placeholder": "Enter URL",
+      "submit": "Submit",
+      "success-title": "Your request has been accepted",
+      "success-desc": "We will contact you as soon as possible using the contacts you specified",
+      "close": "Close"
+    },
+    "AddAddress": {
+      "title": "Add address",
+      "add-button": "Add",
+      "address-placeholder": "Address",
+      "instruction-placeholder": "Instructions"
+    },
+    "DeleteAddress": {
+      "title": "Delete this address?",
+      "text": "After deleting an address, information about it and all events associated with it will be deleted. Are you sure you want to do this?",
+      "delete-btn": "Delete",
+      "cancel": "Cancel"
+    },
+    "SuggestNewFeature": {
+      "title": "XL-pickup",
+      "text": "We are currently testing new features which allows companies donate other items that require bigger car, such as furniture, computer hardware etc. If you are interested in taking part in this or have another suggestion how CharityBo can bring more values, please submit a feature activation request clicking the button below.",
+      "button": "Request access",
+      "textareaPlaceholder": "Please write a few words of what you would be interested to donate and another thoughts and suggestions.",
+      "requestAccepted": {
+        "title": {
+          "firstParagraph": "Your Request ",
+          "secondParagraph": "Has Been Received"
+        },
+        "text": "Our team will review your request and follow up with you via email to confirm activation of the feature. At the moment you can book XL-pickup using the standard ‘Order pickup’ button. Just mention in the comment that a bigger car is needed.",
+        "btn": "Close"
+      }
+    },
+    "OrderBox": {
+      "add-title": "Order a bin",
+      "edit-title": "Edit a bin",
+      "amount": "Amount",
+      "address": "Address",
+      "start-date": "Date",
+      "from": "from",
+      "to": "to",
+      "comments-placeholder": "Enter comments",
+      "add-button": "Add order",
+      "edit-button": "Edit order",
+      "checkPicture": "The capacity of the bin is 125 l and its internal dimensions are 38 x 35 x 75 cm. You can check the picture ",
+      "link": "here",
+      "wait": "Please wait...",
+      "delete": "Delete a bin"
+    },
+    "SendLetter": {
+      "title": "Send a letter",
+      "suggestFunds": "Suggest funds",
+      "btn": "Send",
+      "btnClose": "Close",
+      "text": {
+        "firstParagraph": "Your letter",
+        "secondParagraph": "has been sent"
+      }
+    }
+  },
+  "errors": {
+    "user-not-exist": "User does not exist",
+    "user-exist": "User already exist",
+    "user-not-active": "User deactivated",
+    "company-exist": "The company already exists. New users must be added by your colleagues",
+    "code-wrong": {
+      "firstPart": "The code is incorrect.",
+      "secondPart": "attempt(s) left."
+    },
+    "code-required": "Enter the code from your email in the field above",
+    "name-required": "Name is required",
+    "name-length": "Name length must be less than 70 characters",
+    "phone-required": "Phone is required",
+    "email-wrong-format": "Email has an invalid format",
+    "email-required": "Email is required",
+    "date-required": "Date is required",
+    "date-interval": "start date must be before end date",
+    "company-required": "Company is required",
+    "field-required": "Field is required",
+    "comment-length": "Comment length must be less than 2000 characters",
+    "address-required": "Address is required",
+    "address-length": "Address length must be more than 1 word",
+    "country-required": "Country code is required",
+    "country-length": "Country code length must be less than 3 characters",
+    "iban-required": "IBAN is required",
+    "iban-length": "IBAN length must be less than 34 characters",
+    "message-required": "Message is required",
+    "message-length": "length must be less than 140 characters",
+    "reference-required": "Reference is required",
+    "reference-length": "length must be less than 25 characters"
+  },
+  "success": {
+    "settings": "Settings saved successfully"
+  }
+}

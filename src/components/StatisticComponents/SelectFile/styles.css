@@ -1,0 +1,118 @@
+
+.selectFile__wrap {
+    position: relative;
+}
+
+.selectFile__selected {
+    height: 35px;
+    padding: 6px 15px;
+    font: 500 14px/23px 'Quicksand';
+    color: #070337;
+    border: 2px solid #E1E1E1;
+    border-radius: 30px;
+    background: #fff;
+    user-select: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.selectFile--disabled .selectFile__selected {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.selectFile--error .selectFile__selected {
+    border-color: #F5533D;
+    color: #F5533D;
+}
+
+.selectFile__arrow {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+}
+
+.selectFile__arrow--opened {
+    transform: rotate(-180deg);
+}
+
+.selectFile__list {
+    max-height: 180px;
+    width: fit-content;
+    padding: 5px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(34, 34, 34, 0.1);
+    border-radius: 30px;
+    overflow-y: auto;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 6;
+}
+
+.selectFile__item {
+    padding: 5px 20px;
+    font: 500 14px/23px 'Quicksand';
+    color: #070337;
+    cursor: pointer;
+}
+
+.selectFile__item:hover,
+.selectFile__item--active {
+    color: #7127EA;
+}
+
+.selectFile__item:last-child {
+    margin-bottom: 0;
+}
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .selectFile__selected {
+        height: 56px;
+        padding: 24px 30px 6px;
+        font: 500 17px/26px 'Quicksand';
+    }
+
+    .selectFile__title {
+        left: 30px;
+    }
+
+    .selectFile__arrow {
+        top: 16px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .selectFile__selected {
+        height: 52px;
+        padding: 20px 25px 6px;
+        font: 500 16px/25px 'Quicksand';
+    }
+
+    .selectFile__title {
+        top: 3px;
+        left: 25px;
+    }
+
+    .selectFile__arrow {
+        top: 14px;
+    }
+}
+
+

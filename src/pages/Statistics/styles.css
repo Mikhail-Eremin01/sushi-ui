@@ -1,0 +1,215 @@
+/* Statistics */
+
+.statistics__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.statistics__row {
+    display: flex;
+    margin-bottom: 40px;
+    gap: 15px;
+}
+
+.statistics__row--full {
+    justify-content: space-between;
+}
+
+.statistics__info {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.statistics__title-text {
+    font: 700 40px/50px 'Quicksand';
+    color: #070337;
+}
+
+.button.statistics__add-button-mobile  {
+    padding: 12px 13px;
+}
+.statistics__button_toglleFullInfo  {
+    width: 24px;
+    height: 24px;
+    background: white;
+    color: black;
+    border-radius: 0;
+    border:none;
+    cursor: pointer;
+    padding: 0;
+}
+.button.statistics__add-button-mobile svg {
+    margin-right: 0;
+}
+
+.statistics__buttons {
+    display: flex;
+}
+
+.statistics__edit {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    background: url('../../assets/edit.svg') center center no-repeat rgba(113, 39, 234, 0.1);
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.statistics__delete {
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    background: url('../../assets/delete.svg') center center no-repeat rgba(229, 57, 53, 0.1);
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.statistics__noresults {
+    max-width: 600px;
+    margin: 0 auto;
+    font: 500 18px/27px 'Quicksand';
+    color: #777777;
+    text-align: center;
+}
+
+.statistics__noresults-image {
+    margin-bottom: 40px;
+}
+
+.statistics__noresults-title {
+    margin-bottom: 15px;
+    font: 700 22px/28px 'Quicksand';
+    color: #070337;
+}
+.statistics__table-mobile__item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.statistics__table-mobile__item_mainContent {
+    width: 100%;
+    margin-right: 40px;
+}
+.statistics__table-mobile__item:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.statistics__table-mobile__col {
+    width: calc(20% - 10px);
+    display: block;
+    justify-content: space-between;
+}
+
+.statistics__table-mobile__title {    
+    font: 500 14px/24px 'Quicksand';
+    color: #999999;
+}
+
+.statistics__table-mobile__value {
+    width: calc(70% - 10px);
+    font: 500 17px/22px 'Quicksand';
+    color: #070337;
+}
+
+.statistics__status-filter {
+    width: 270px;
+}
+
+.statistics__info {
+    display: flex;
+}
+.statistics__info-item {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+.statistics__info-item:nth-child(1) {
+    border-right: 2px solid #EBEBEB;
+    padding-right: 30px;
+}
+.statistics__info-item:nth-child(2) {
+    padding-left: 30px;
+}
+
+.statistics__info {
+    display: flex;
+}
+.statistics__info-item {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+.statistics__info-item:nth-child(1) {
+    border-right: 2px solid #EBEBEB;
+    padding-right: 30px;
+
+}
+.statistics__info-item:nth-child(2) {
+    padding-left: 30px;
+}
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 991.98px) { 
+    .statistics__title-text {
+        font: 700 34px/42px 'Quicksand';
+    }
+
+    .statistics__title, .statistics__info {
+        margin-bottom: 35px;
+    }
+
+    .statistics__noresults-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .statistics__noresults-title {
+        font: 700 21px/26px 'Quicksand';
+    }
+
+    .statistics__row {
+        gap: 10px;
+    }
+    .statistics__status-filter .select__selected {
+        padding: 24px 25px 6px;
+    }
+    .statistics__status-filter .select__title {
+        left: 25px;
+    }
+    .statistics__status-filter .select__arrow {
+        right: 12px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .statistics__row {
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .statistics__info {
+        margin-bottom: 20px;
+    }
+    .statistics__status-filter {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .statistics__title-text {
+        font: 700 30px/38px 'Quicksand';
+    }
+}

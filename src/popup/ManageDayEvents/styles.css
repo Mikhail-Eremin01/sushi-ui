@@ -1,0 +1,103 @@
+.manage-day-events__title {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    font: 700 27px / 38px "Quicksand";
+    padding-right: 25px;
+}
+.manage-day-events__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.manage-day-events__item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 22px 0;
+    font: 500 16px/24px "Quicksand";
+    color: #070337;
+    position: relative;
+    border-bottom: 1px solid #e1e1e1ed;
+}
+.manage-day-events__info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.manage-day-events__info__title {
+    color: #999;
+    font: 500 13px/20px "Quicksand";
+}
+.manage-day-events__menu {
+    position: relative;
+}
+.manage-day-events__dots {
+    width: 24px;
+    height: 24px;
+    background: url("../../assets/more-dots.svg") center center no-repeat;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    /* top: 22px; */
+    padding: 22px 0;
+}
+.manage-day-events__drop-menu {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
+
+.manage-day-events__error {
+    margin-bottom: 20px;
+}
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+    .manage-day-events__title {
+        font: 700 30px / 38px "Quicksand";
+    }
+    .manage-day-events__list {
+        padding-bottom: 22px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .manage-day-events__title {
+        font: 700 24px / 30px "Quicksand";
+    }
+    .manage-day-events__info {
+        gap: 20px;
+    }
+    .manage-day-events__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 400px) {
+    .manage-day-events__title {
+        font: 700 22px / 26px "Quicksand";
+    }
+    .manage-day-events__info {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .manage-day-events__item {
+        padding: 15px 0;
+    }
+}

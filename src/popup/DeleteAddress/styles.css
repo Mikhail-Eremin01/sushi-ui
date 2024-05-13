@@ -1,0 +1,31 @@
+.delete-address {
+    display: flex;
+    flex-direction: column;
+}
+
+.delete-address__title {
+    font: 700 40px/50px 'Quicksand';
+    margin-bottom: 30px;
+}
+
+.delete-address__text {
+    font: 500 18px/27px 'Quicksand';
+    margin-bottom: 35px;
+}
+
+.delete-address__btns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.delete-address__btns .button {
+    width: 100%;
+}
+
+@media (max-width: 575.98px) {
+    .delete-address__title {
+        font: 700 30px/37.5px 'Quicksand';
+        margin-right: 40px;
+    }
+}

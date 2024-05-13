@@ -1,0 +1,51 @@
+.calendar {
+  width: 100%;
+
+  color: rgba(7, 3, 55, 0.5);
+
+  margin-bottom: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.title {
+  margin: 0;
+  color: #070337;
+}
+
+.navigationContainer {
+  display: flex;
+  justifycontent: space-between;
+  gap: 10px;
+}
+
+.forwardButton {
+  transform: rotate(180deg);
+}
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .calendar h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575.98px) {
+}

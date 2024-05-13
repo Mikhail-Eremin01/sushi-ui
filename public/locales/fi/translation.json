@@ -1,0 +1,482 @@
+{
+  "App": {},
+  "Head": {
+    "schedule": "Kalenteri",
+    "statistics": "Maksut",
+    "charities": "Hyväntekeväisyysjärjestöt",
+    "users": "Käyttäjät",
+    "settings": "Asetukset",
+    "companies": "Yritykset",
+    "route": "Reitti",
+    "logout": "Kirjaudu ulos"
+  },
+  "Auth": {
+    "title": "Kirjautuminen",
+    "text": "Sähköpostiisi lähetetään valtuutuskoodi",
+    "text-code": "Olemme lähettäneet nelinumeroisen koodin sähköpostiisi {{email}}, kirjoita se oikeaan kenttään ja napsauta \"Jatka\"",
+    "email": "Sähköposti",
+    "code": "Koodi",
+    "placeholder": "Syötä sähköpostiosoitteesi",
+    "placeholder-code": "Syötä varmennuskoodi",
+    "button": "Kirjaudu",
+    "button-code": "Jatka",
+    "account": "Eikö sinulla ole tiliä?",
+    "link-register": "Rekisteröinti",
+    "window_userLocked": {
+      "title": "Tili tilapäisesti lukittu",
+      "text": {
+        "firstParagraph": "Olet ylittänyt kirjautumisyritysten enimmäismäärän.",
+        "secondParagraph": {
+          "firstPart": "Voit yrittää kirjautua sisään uudelleen",
+          "secondPart": "minuutin kuluttua."
+        }
+      },
+      "button": "Back"
+    }
+  },
+  "Register": {
+    "title": "Rekisteröinti",
+    "email": "Sähköposti",
+    "email-placeholder": "Syötä sähköpostiosoitteesi",
+    "phone": "Puhelin",
+    "phone-placeholder": "Anna puhelimesi",
+    "person": "Yhteyshenkilö",
+    "person-placeholder": "Anna yhteyshenkilön nimi",
+    "company": "Yritys",
+    "company-placeholder": "Anna yrityksen nimi",
+    "address": "Osoite",
+    "address-placeholder": "Anna yrityksen osoite",
+    "button": "Luo tili",
+    "account": "Onko sinulla jo tili?",
+    "link-auth": "Kirjaudu sisään",
+    "success-title": "Rekisteröinti onnistui",
+    "success-desc": "Kiitos rekisteröitymisestä! Voit nyt käyttää sovellusta."
+  },
+  "Users": {
+    "title": "Käyttäjät",
+    "name": "Nimi",
+    "email": "Sähköposti",
+    "phone": "Puhelin",
+    "add-button": "Lisää käyttäjä",
+    "edit": "Muokata",
+    "delete": "Poistaa",
+    "tab": "Käyttäjät"
+  },
+  "Statistics": {
+    "title": "Maksut",
+    "date": "Päivämäärä",
+    "company": "Yritys",
+    "status": "Status",
+    "payment-status": "Maksun tilanne",
+    "email": "Sähköposti",
+    "total": "Kokonaismäärä",
+    "payout": "Prosentti maksettu",
+    "amountPaid": "Maksettu summa",
+    "amountKept": "Säilytetty määrä",
+    "timeSpent": "Vietti aikaa",
+    "distanceDriven": "Etäisyys ajettu",
+    "funds": "Hyväntekeväisyys Säätiöt",
+    "add-button": "Lisää toiminto",
+    "noresult-title": "Lahjoituksia ei ole vielä tehty",
+    "noresult-text": "Näet listan yrityksesi tekemistä lahjoituksista, kun olemme siirtäneet rahat valitsemallesi organisaatiolle",
+    "edit": "Muokata",
+    "delete": "Poistaa",
+    "files": "Tiedostot",
+    "proofOfMoneyTransfer": "Todiste rahansiirrosta",
+    "proofOfMoneyCollection": "Todiste rahan keräämisestä",
+    "send": "Lähettää",
+    "send-money": "Lähetä rahaa",
+    "check-status": "Hanki maksun tila",
+    "gen-check": "Luo sekki",
+    "suggestFunds": "Ehdottaa varoja"
+  },
+  "Charities": {
+    "title": "Hyväntekeväisyysjärjestöt",
+    "add-button": "Lisää rahasto",
+    "name": "Rahaston nimi",
+    "iban": "IBAN",
+    "message": "Viesti",
+    "reference": "Viite",
+    "country": "Maatunnus",
+    "address": "Osoite",
+    "date": "Päivämäärä",
+    "amount": "Summa, EUR",
+    "archiveId": "ArchiveId",
+    "status": "Tila",
+    "noresult-title": "Varoja ei ole vielä lisätty",
+    "edit": "Muokata",
+    "delete": "Poistaa"
+  },
+  "Settings": {
+    "title": "Asetukset",
+    "company": "Yritys",
+    "company-placeholder": "Anna yrityksen nimi",
+    "address": "Osoite",
+    "address-placeholder": "Anna yrityksen osoite",
+    "charities": "Lahjoita rahaa hyväntekeväisyysjärjestöille",
+    "suggest": "Ehdota organisaatiota",
+    "instruction": "Ohjeet",
+    "instruction-placeholder": "Anna ohjeet",
+    "save": "Tallenna muutokset",
+    "add-button": "Lisää osoite",
+    "msg-error": "Jotain meni pieleen",
+    "msg-success": "Muutokset tallennettu onnistuneesti",
+    "msg-requireField": "Täytä vaaditut kentät"
+  },
+  "Funds": {
+    "title": "Lahjoita rahaa hyväntekeväisyyteen",
+    "tab": "Hyväntekeväisyysjärjestöt"
+  },
+  "Route": {
+    "title": "Reitti",
+    "date": "Päivämäärä",
+    "date-placeholder": "Anna päivämäärä",
+    "pin": "Pin",
+    "company": "Yritys",
+    "person": "Yhteyshenkilö",
+    "address": "Osoite",
+    "instructions": "Ohjeet",
+    "none": "Ei tuloksia",
+    "comments": "Kommentit",
+    "amount": "Määrä"
+  },
+  "Address": {
+    "tab": "Osoitteet",
+    "add-address": "Lisää osoite",
+    "save": "Tallenna muutokset"
+  },
+  "Company": {
+    "tab": "Yritys",
+    "placeholder": "Yritys"
+  },
+  "Permissions": {
+    "tab": "Suostumukset",
+    "email-notifications": {
+      "title": "Sähköposti-ilmoitukset",
+      "new-features-released": "Uusia ominaisuuksia julkaistu",
+      "new-blog-posts": "Uusia blogikirjoituksia",
+      "payments-made": "Maksut suoritettu"
+    },
+    "mention-company": {
+      "title": "Mainitse yritys",
+      "mention-company-website": "Yrityksen logon käyttö CharityBo verkkosivuilla/blogissa",
+      "mention-company-linkedin": "Mainitse yritys CharityBo-blogissa tai LinkedIn-viesteissä"
+    }
+  },
+  "AboutUs": {
+    "tab": "Meistä",
+    "organization": "Organisaatio",
+    "registration-number": "Rekisterinumero",
+    "address": "Osoite",
+    "application-version": "Sovellusversio",
+    "aboutUs": "Meistä",
+    "mainText": {
+      "firstParagraph": {
+        "firstPart": "Olemme omistautunut harrastajaryhmä, johon kuuluu ohjelmistokehittäjiä ja graafinen suunnittelija. Meitä yhdistää intohimomme tehdä maailmasta parempi paikka ohjelmistojen ja muotoilun voimalla.",
+        "boldText": "Tehtävämme on hyödyntää yhteisiä taitojamme ja asiantuntemustamme luodaksemme innovatiivisia ratkaisuja, joilla vastataan yhteiskunnan haasteisiin.",
+        "secondPart": "Tukenne on ratkaisevan tärkeää, jotta voimme toteuttaa visiomme, ja olemme todella kiitollisia luottamuksestanne pyrkimyksiimme."
+      },
+      "secondParagraph": {
+        "firstPart": "Tiimimme koostuu ammattitaitoisista ohjelmistokehittäjistä, joilla on monipuoliset taidot ja kokemukset eri teknologioista, kuten JavaScript, TypeScript, React, GraphQL, Serverless, Node.js ja AWS. Meillä on myös lahjakas graafinen suunnittelija, joka voi tuoda luovia visuaalisia elementtejä projekteihisi. Jos joskus tarvitset apua jollakin näistä osa-alueista, ota rohkeasti yhteyttä osoitteeseen ",
+        "mail": " hi@charitybo.fi",
+        "secondPart": "Olemme innokkaita antamaan asiantuntemustamme ja tekemään yhteistyötä kanssasi hankkeissasi."
+      },
+      "thirdParagraph": "Yhdessä voimme hyödyntää ohjelmistojen ja muotoilun muutospotentiaalia valoisamman tulevaisuuden luomiseksi. Tukemalla toimintaamme annat meille mahdollisuuden jatkaa myönteistä vaikutusta ympärillämme olevien ihmisten elämään."
+    }
+  },
+  "Calendar": {
+    "title": "Kalenteri",
+    "add-event": "Tilaa nouto",
+    "Calendar": {
+      "edit": "Muokata",
+      "delete": "Poistaa",
+      "times": "Ajat",
+      "more": "lisää tapahtumia"
+    },
+    "Tooltip": {
+      "red": {
+        "title": "Korkea",
+        "text": " - punaisen ilmaisimen ollessa päällä, olemme saavuttaneet kapasiteettimme pullojen noutovarauksille, emmekä voi ottaa uusia tilauksia tällä hetkellä. Arvostamme ymmärrystäsi ja kannustamme sinua tarkistamaan myöhemmin avoimet varausajat."
+      },
+      "yellow": {
+        "title": "Keskitaso",
+        "text": " - keltainen ilmaisin merkitsee, että saatavuutemme pullojen noutopalveluille on kohtalainen. Voit edelleen tehdä varauksen toimistosi pullonoudolle, mutta suosittelemme tekemään niin mahdollisimman pian varmistaaksesi paikkasi."
+      },
+      "green": {
+        "title": "Matala",
+        "text": " - kun ilmaisin on vihreä, meillä on paljon saatavuutta pullojen noutovarauksille. Tämä on paras aika ajoittaa toimistosi pullonoudot, varmistaen sujuvan ja ajallaan tapahtuvan palvelun."
+      }
+    },
+    "orderBox": "Tilaa kori",
+    "info-founds-text1": "Valitse hyväntekeväisyysjärjestö, jota haluat tukea. Voit päivittää tätä asetusta milloin tahansa",
+    "info-founds-link": "Asetukset",
+    "info-founds-text2": "-sivulla. Kiitos tuestasi!"
+  },
+  "NotFound": {
+    "text": "Valitettavasti sivua ei löydy",
+    "home": "Mene kotisivulle"
+  },
+  "CompanyStatistics": {
+    "order": "Tilaa nouto",
+    "last-month": "Viime kuukausi",
+    "total": "Kokonaismäärä",
+    "latest-operations": "Viimeisimmät tapahtumat",
+    "form-title": "Tilaa nouto",
+    "form-desc": "Lähetä vientipyyntö täyttämällä alla oleva lomake",
+    "start-date": "Päivämäärä",
+    "from": "Alkaen",
+    "to": "Ennen",
+    "comment": "Kommentti",
+    "comment-placeholder": "Anna kommentti",
+    "submit": "Lähetä",
+    "success-title": "Hakemus valmis",
+    "success-desc": "Otamme sinuun yhteyttä mahdollisimman pian määrittämilläsi yhteyshenkilöillä",
+    "success-button": "Takaisin kotiin",
+    "get-started": "Aloita nyt"
+  }, 
+  "Companies": {
+    "title": "Yritykset",
+    "access-denied-title": "Sinulla ei ole pääsyä tälle sivulle",
+    "add-button": "Lisää yritys",
+    "company-name": "Yhtiö",
+    "addresses": "Osoitteet",
+    "instructions":"Ohjeet",
+    "funds": "Varat",
+    "users": "Käyttäjät",
+    "date": "Päivämäärä"
+  },
+  "DownloadOperationsData": {
+    "startDate": "aloituspäivämäärä",
+    "endDate": "päättymispäivä",    
+    "download-button": "Ladata",
+    "wait": "Odota..."
+  },
+  "Popup": {
+    "ManageUser": {
+      "name": "Nimi",
+      "name-placeholder": "Anna käyttäjä nimi",
+      "email": "Sähköposti",
+      "email-placeholder": "Anna käyttäjän sähköpostiosoite",
+      "phone": "Puhelin",
+      "phone-placeholder": "Anna käyttäjän puhelinnumero",
+      "add-title": "Lisää käyttäjä",
+      "edit-title": "Muokkaa käyttäjää",
+      "add-button": "Lisätä",
+      "edit-button": "Muokata"
+    },
+    "ManageOperation": {
+      "date": "Päivämäärä",
+      "date-placeholder": "Anna päivämäärä ja aika",
+      "funds": "Varat",
+      "company": "Yritys",
+      "status": "Status",
+      "status-process": "Käsittelyssä",
+      "status-success": "Valmis",
+      "status-fail": "Epäonnistui",
+      "total": "Summa, EUR",
+      "total-placeholder": "Syötä summa",
+      "payout": "Prosentti maksettu, %",
+      "payout-placeholder": "Syötä maksettu prosentti",
+      "amountPaid": "Maksettu summa, EUR",
+      "amountPaid-placeholder": "Syötä maksettu summa",
+      "amountKept": "Säilytetty määrä, EUR",
+      "amountKept-placeholder": "Syötä säilytettävä määrä",
+      "timeSpent": "Vietti aikaa, min",
+      "timeSpent-placeholder": "Syötä käytetty aika",
+      "distanceDriven": "Ajettu matka, km",
+      "distanceDriven-placeholder": "Syötä ajettu matka",
+      "add-title": "Lisää toiminto",
+      "edit-title": "Muokkaa toimintoa",
+      "add-button": "Lisätä",
+      "edit-button": "Muokata"
+    },
+    "ManageFund": {
+      "name": "Nimi",
+      "name-placeholder": "Kirjoita nimi",
+      "country": "Maatunnus",
+      "country-placeholder": "Syötä koodi",
+      "address": "Osoite",
+      "address-placeholder": "Syötä osoite",
+      "iban": "IBAN",
+      "iban-placeholder": "Syötä IBAN",
+      "reference": "Viitenumero",
+      "reference-placeholder": "Syötä viitenumero",
+      "message": "Viesti",
+      "message-placeholder": "Syötä viesti",
+      "add-title": "Lisää rahasto",
+      "edit-title": "Muokkaa rahastoa",
+      "add-button": "Lisätä",
+      "edit-button": "Muokkaa",
+      "type-reference": "Viite",
+      "type-message": "Viesti"      
+    },
+    "ManageEvent": {
+      "start-date": "Päivämäärä",
+      "from": "Alkaen",
+      "to": "Ennen",
+      "comment": "Kommentti",
+      "comment-placeholder": "Anna kommentti",
+      "repeat": "Toista joka",
+      "repeat-label": "Toista joka",
+      "weekday": "Viikonpäivä",
+      "week": "Viikko",
+      "weeks": "Viikot",
+      "type-once": "Kerran",
+      "type-periodic": "Jaksottainen",
+      "add-title": "Tilaa nouto",
+      "edit-title": "Muokkaa noutoa",
+      "add-button": "Lisätä",
+      "edit-button": "Muokata",
+      "wait": "Odota...",
+      "delete": "Poista nouto",
+      "calendar-cancel": "Peruuttaa",
+      "calendar-done": "Tehty",
+      "Months": {
+        "1": "Tammikuu",
+        "2": "Helmikuu",
+        "3": "Maaliskuu",
+        "4": "Huhtikuu",
+        "5": "Toukokuu",
+        "6": "Kesäkuu",
+        "7": "Heinäkuu",
+        "8": "Elokuu",
+        "9": "Syyskuu",
+        "10": "Lokakuu",
+        "11": "Marraskuu",
+        "12": "Joulukuu"
+      },
+      "address": "Osoite",
+      "next-pickup": "Seuraava nouto",
+      "not-available": "Valitettavasti tämä päivä on varattu täyteen, valitse toinen päivä."
+    },
+    "ManageDayEvents": {
+      "schedule-for": "Kalenteri varten",
+      "time": "Aika",
+      "company": "Yritys",
+      "unknownName": "Nimi tuntematon"
+    },
+    "DeleteEvent": {
+      "title": "Poista nouto",
+      "text": "Haluatko peruuttaa noudon sinä päivänä?",
+      "delete-time": "Poista tämä päivä",
+      "delete-event": "Poista kokonaan"
+    },
+    "EditEvent": {
+      "title": "Tallenna muutokset",
+      "text": "Haluatko vaihtaa noudon sinä päivänä?",
+      "edit-time": "Säästä tälle päivälle",
+      "edit-event": "Tallenna kokonaan"
+    },
+    "TransferMoney": {
+      "title": "Lähetä rahaa",
+      "title-get-status": "Hanki tapahtuman tila",
+      "title-generate": "Luo sekki",
+      "text-get-status": "Haluatko saada tapahtuman tilan ja luoda shekin?",
+      "text-generate": "Haluatko luoda shekin tästä tapahtumasta?",
+      "status": "Maksun tilanne",
+      "text": "Haluatko lähettää rahaa tähän rahastoon?",
+      "cancel": "Peruuttaa",
+      "close": "Kiinni",
+      "confirm": "Vahvistaa",
+      "edit": "Muokkaa rahastoa",
+      "invalid-data": "Et voi jatkaa ilman vaadittuja tietoja. Jatka muokkaamalla rahastoa"
+    },
+    "SuggestOrganization": {
+      "title": "Ehdota organisaatiota",
+      "name": "Nimi",
+      "name-placeholder": "Anna organisaation nimi",
+      "url": "URL-osoite",
+      "url-placeholder": "Anna URL-osoite",
+      "submit": "Lähetä",
+      "success-title": "Pyyntösi on hyväksytty",
+      "success-desc": "Otamme sinuun yhteyttä mahdollisimman pian määrittämilläsi yhteyshenkilöillä",
+      "close": "Sulje"
+    },
+    "AddAddress": {
+      "title": "Lisää osoite",
+      "add-button": "Lisätä",
+      "address-placeholder": "Osoite",
+      "instruction-placeholder": "Ohjeet"
+    },
+    "DeleteAddress": {
+      "title": "Poistetaanko tämä osoite?",
+      "text": "Osoitteen poistamisen jälkeen sitä koskevat tiedot ja kaikki siihen liittyvät tapahtumat poistetaan. Oletko varma, että haluat tehdä tämän?",
+      "delete-btn": "Poistaa",
+      "cancel": "Peruuttaa"
+    },
+    "SuggestNewFeature": {
+      "title": "XL-nouto",
+      "text": "Testaamme parhaillaan uusia ominaisuuksia, joiden avulla yritykset voivat lahjoittaa muita tavaroita, jotka vaativat isomman auton, kuten huonekalut, tietokonelaitteistot jne. Jos olet kiinnostunut osallistumaan tähän tai sinulla on muita ehdotuksia siitä, miten CharityBo voi tuoda lisää arvoja, lähetä ominaisuusaktivointipyyntö klikkaamalla alla olevaa painiketta.",
+      "button": "Pyydä käyttöoikeutta",
+      "textareaPlaceholder": "Kirjoita muutama sana siitä, mitä olisit kiinnostunut lahjoittamaan ja muita ajatuksia ja ehdotuksia.",
+      "requestAccepted": {
+        "title": {
+          "firstParagraph": "Pyyntönne on ",
+          "secondParagraph": "vastaanotettu"
+        },
+        "text": "Tiimimme tarkistaa pyyntösi ja ottaa sinuun yhteyttä sähköpostitse vahvistaakseen ominaisuuden aktivoinnin. Tällä hetkellä voit varata XL-noutopalvelun tavallisella ‘Tilaa nouto’ -painikkeella. Mainitse vain kommentissa, että tarvitset isomman auton.",
+        "btn": "Sulje"
+      }
+    },
+    "OrderBox": {
+      "add-title": "Tilaa kori",
+      "edit-title": "Muokkaa kori",
+      "amount": "Määrä",
+      "address": "Osoite",
+      "start-date": "Päivämäärä",
+      "from": "Alkaen",
+      "to": "Ennen",
+      "comments-placeholder": "Kirjoita kommentit",
+      "add-button": "Lisää tilaus",
+      "edit-button": "Muokkaa järjestystä",
+      "checkPicture": "Säiliön tilavuus on 125 litraa, ja sen sisämitat ovat 38 x 35 x 75 cm. Voit katsoa kuvan ",
+      "link": "täältä",
+      "wait": "Odota...",
+      "delete": "Poista kori"
+    },
+    "SendLetter": {
+      "title": "Lähettää kirje",
+      "suggestFunds": "Ehdottaa varoja",
+      "btn": "Lähettää",
+      "btnClose": "Sulje",
+      "text": {
+        "firstParagraph": "Kirjeesi ",
+        "secondParagraph": "on lähetetty"
+      }
+    }
+  },
+  "errors": {
+    "user-not-exist": "Käyttäjää ei ole olemassa",
+    "user-exist": "Käyttäjä on jo olemassa",
+    "user-not-active": "Käyttäjä deaktivoitu",
+    "company-exist": "Yritys on jo olemassa. Työtovereiden on lisättävä uusia käyttäjiä",
+    "code-wrong": {
+      "firstPart": "Koodi on virheellinen.",
+      "secondPart": "yritystä jäljellä."
+    },
+    "code-required": "Syötä sähköpostistasi saamasi koodi yllä olevaan kenttään",
+    "email-wrong-format": "Sähköpostin muoto on virheellinen",
+    "email-required": "Syötä sähköposti",
+    "name-required": "Nimi vaaditaan",
+    "name-length": "Nimen pituus saa olla alle 70 merkkiä",
+    "phone-required": "Puhelin vaaditaan",
+    "date-required": "Syötä päivämäärä",
+    "date-interval": "aAoituspäivän on oltava ennen lopetuspäivää",
+    "company-required": "Syötä yritys",
+    "field-required": "Syöttökenttä on pakollinen",
+    "comment-length": "Kommentin pituuden on oltava alle 2000 merkkiä",
+    "address-required": "Osoite vaaditaan",
+    "address-length": "Osoitteen pituuden on oltava yli 1 sana",
+    "country-required": "Maakoodi vaaditaan",
+    "country-length": "Maakoodin pituuden on oltava alle 3 merkkiä",
+    "iban-required": "IBAN vaaditaan",
+    "iban-length": "IBAN-pituuden on oltava alle 34 merkkiä",
+    "message-required": "Viesti vaaditaan",
+    "message-length": "Viestin pituuden on oltava alle 140 merkkiä",
+    "reference-required": "Viite vaaditaan",
+    "reference-length": "Viitepituuden on oltava alle 25 merkkiä"
+  },
+  "success": {
+    "settings": "Asetukset tallennettu onnistuneesti"
+  }
+}

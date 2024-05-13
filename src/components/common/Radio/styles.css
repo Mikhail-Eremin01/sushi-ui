@@ -1,0 +1,51 @@
+/* Radio */
+
+.radio {
+    display: inline-block;
+}
+
+.radio--disabled {
+    opacity: 0.35;
+}
+
+input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.radio__icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: url('../../../assets/radio-sprite.svg#normal');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+input[type=radio]:hover ~ .radio__icon {
+    background-image: url('../../../assets/radio-sprite.svg#hover');
+}
+
+input[type=radio]:checked ~ .radio__icon {
+    background-image: url('../../../assets/radio-sprite.svg#checked');
+}
+
+input[type=radio]:checked:hover ~ .radio__icon {
+    background-image: url('../../../assets/radio-sprite.svg#checked-hover');
+}
+
+input[type=radio]:disabled ~ .radio__icon {
+    background-image: url('../../../assets/radio-sprite.svg#disabled');
+    cursor: default;
+}
+
+input[type=radio]:checked:disabled ~ .radio__icon {
+    background-image: url('../../../assets/radio-sprite.svg#checked-disabled');
+    cursor: default;
+}

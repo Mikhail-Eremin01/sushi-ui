@@ -1,0 +1,98 @@
+/* NotFound */
+
+.notfound {
+    height: 100vh;
+    padding: 20px;
+    background: url('../../assets/bg.png') center bottom -600px no-repeat #5F55FF;
+    position: relative;
+}
+
+.notfound__language {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+.notfound__logo {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.notfound__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.notfound__image {
+    margin-bottom: 30px;
+}
+
+.notfound__text {
+    margin-bottom: 30px;
+    font: 600 40px/50px 'Quicksand';
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/*
+ * Responsive
+ * https://getbootstrap.com/docs/5.1/layout/breakpoints/#max-width
+*/
+@media (max-width: 1399.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 767.98px) {
+    .notfound__logo {
+        left: 15px;
+        top: 35px;
+    }
+
+    .notfound__logo svg {
+        width: auto;
+        height: 38px;
+    }
+
+    .notfound__language {
+        right: 15px;
+        top: 30px;
+    }
+
+    .notfound__image {
+        width: 100%;
+    }
+
+    .notfound__text {
+        margin-bottom: 25px;
+        font: 600 34px/42px 'Quicksand';
+    }
+}
+
+@media (max-width: 575.98px) {
+    .notfound__logo {
+        top: 20px;
+    }
+
+    .notfound__logo svg {
+        height: 33px;
+    }
+
+    .notfound__language {
+        top: 18px;
+    }
+
+    .notfound__image {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .notfound__text {
+        font: 600 30px/38px 'Quicksand';
+    }
+}

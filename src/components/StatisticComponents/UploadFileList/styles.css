@@ -1,0 +1,11 @@
+.uploadFileList__wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.uploadFileList__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

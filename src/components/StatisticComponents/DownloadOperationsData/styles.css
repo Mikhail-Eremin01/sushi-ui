@@ -1,0 +1,123 @@
+.download-wrapper {}
+
+.download__error {
+    margin-bottom: 25px;
+}
+
+.download__input {
+    position: relative;
+    width: 270px;
+}
+
+.statistics .datepicker__title {
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    font: 500 14px/20px 'Quicksand';
+    color: #999999;
+}
+
+.statistics .datepicker--focused .datepicker-wrap {
+    border-color: #b893f4;
+}
+
+.statistics .datepicker--show-title .datepicker__title {
+    display: block;
+}
+  
+.statistics .datepicker--show-title .input__input {
+    padding: 24px 35px 6px;
+}
+
+.statistics .datepicker-wrap {
+    border: 2px solid #e1e1e1;
+    border-radius: 60px;
+    position: relative;
+    background: #fff;
+    cursor: pointer;
+}
+
+.statistics .datepicker__icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    margin-top: -12px;
+    cursor: pointer;
+}
+
+.download__calendar {
+    position: absolute;
+    bottom: 0;
+    padding: 45px 30px;  
+    transform: translateY(calc(100% + 10px));
+    z-index: 1;
+    background: white;  
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px 1px rgba(34, 34, 34, 0.2);  
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    animation: calendar-reveal 0.2s ease-out backwards 1;
+}
+
+.download__calendar--start {
+    bottom: 0;
+    left: 0;
+}
+.download__calendar--end {
+    bottom: 0;
+    right: 0;
+}
+
+.download__button {
+    flex-grow: 1;
+    border-radius: 30px;
+    padding: 8px 0;
+    border: none;  
+    cursor: pointer;  
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.625;
+}
+
+.download__button--confirm {
+    background: #7127ea;
+    color: #fff;
+}
+
+.download__button--cancel {
+    background: #e3d4fb;
+}
+
+
+.download__buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .statistics .datepicker__title {
+        left: 25px;
+    }
+    .statistics .datepicker__icon {
+        right: 12px;
+    }
+
+    .statistics .datepicker--show-title .input__input {
+        padding: 24px 25px 6px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .download__buttons {
+        width: 100%;
+    }
+    .download__input {
+        width: 48%;
+    }
+}
+
+@media (max-width: 575.98px) {}

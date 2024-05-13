@@ -1,0 +1,482 @@
+{
+  "App": {},
+  "Head": {
+    "schedule": "Kalender",
+    "statistics": "Betalningar",
+    "charities": "Välgörenhetsorganisationer",
+    "users": "Användare",
+    "settings": "Inställningar",
+    "companies": "Företag",
+    "route": "Rutt",
+    "logout": "Logga ut"
+  },
+  "Auth": {
+    "title": "Tillstånd",
+    "text": "Ett e-postmeddelande med en auktoriseringskod kommer att skickas till din e-post.",
+    "text-code": "Vi har skickat en fyrsiffrig kod till din e-post {{email}}, ange den i lämpligt fält och klicka på \"Fortsätt\"",
+    "email": "E-post",
+    "code": "Koda",
+    "placeholder": "Skriv in din e-postadress",
+    "placeholder-code": "Ange behörighetskod",
+    "button": "Att komma in",
+    "button-code": "Fortsätt",
+    "account": "Har du inget konto?",
+    "link-register": "Registrering",
+    "window_userLocked": {
+      "title": "Konto tillfälligt låst",
+      "text": {
+        "firstParagraph": "Du har överskridit det maximala antalet inloggningsförsök.",
+        "secondParagraph": {
+          "firstPart": "Du kan försöka logga in igen om",
+          "secondPart": "minuter."
+        }
+      },
+      "button": "Back"
+    }
+  },
+  "Register": {
+    "title": "Registrering",
+    "email": "E-post",
+    "email-placeholder": "Skriv in din e-postadress",
+    "phone": "Telefon",
+    "phone-placeholder": "Ange din telefon",
+    "person": "Kontaktperson",
+    "person-placeholder": "Ange kontaktpersonens namn",
+    "company": "Företag",
+    "company-placeholder": "Ange företagsnamn",
+    "address": "Adress",
+    "address-placeholder": "Ange företagsadress",
+    "button": "Skapa ett konto",
+    "account": "Har du redan ett konto?",
+    "link-auth": "Logga in",
+    "success-title": "Registrering lyckad",
+    "success-desc": "Tack för att du anmält dig! Du kan nu använda appen."
+  },
+  "Users": {
+    "title": "Användare",
+    "name": "Namn",
+    "email": "E-post",
+    "phone": "Telefon",
+    "add-button": "Lägg till användare",
+    "edit": "Redigera",
+    "delete": "Radera",
+    "tab": "Användare"
+  },
+  "Statistics": {
+    "title": "Betalningar",
+    "date": "Datum",
+    "company": "Före1tag",
+    "status": "Status",
+    "payment-status": "Betalningsstatus",
+    "email": "E-post",
+    "total": "Totala summan",
+    "payout": "Procent betald",
+    "amountPaid": "Betalt belopp",
+    "amountKept": "Behållet belopp",
+    "timeSpent": "Spenderad tid",
+    "distanceDriven": "Kört sträcka",
+    "funds": "Välgörenhet stiftelser",
+    "add-button": "Lägg till operation",
+    "noresult-title": "Inga donationer har gjorts ännu",
+    "noresult-text": "Du kommer att se listan över donationer som gjorts av ditt företag när vi överför pengarna till valfri organisation",
+    "edit": "Redigera",
+    "delete": "Radera",
+    "files": "Filer",
+    "proofOfMoneyTransfer": "Bevis på penningöverföring",
+    "proofOfMoneyCollection": "Bevis på penninginsamling",
+    "send": "Skicka",
+    "send-money": "Skicka pengar",
+    "check-status": "Få betalningsstatus",
+    "gen-check": "Skapa check",
+    "suggestFunds": "Föreslå fonder"
+  },
+  "Charities": {
+    "title": "Välgörenhetsorganisationer",
+    "add-button": "Add fund",
+    "name": "Fondens namn",
+    "iban": "IBAN",
+    "message": "Meddelande",
+    "reference": "Referens",
+    "country": "Landskod",
+    "address": "Adress",
+    "date": "Datum",
+    "amount": "Belopp, EUR",
+    "archiveId": "ArkivId",
+    "status": "Status",
+    "noresult-title": "Inga medel har tillkommit ännu",
+    "edit": "Redigera",
+    "delete": "Radera"
+  },
+  "Settings": {
+    "title": "Inställningar",
+    "company": "Företag",
+    "company-placeholder": "Ange företagsnamn",
+    "address": "Adress",
+    "address-placeholder": "Ange företagsadress",
+    "charities": "Dona pengar till välgörenhetsorganisationer",
+    "suggest": "Föreslå organisation",
+    "instruction": "Instruktioner",
+    "instruction-placeholder": "Ange instruktioner",
+    "save": "Spara ändringar",
+    "add-button": "Lägg till adress",
+    "msg-error": "Något gick fel",
+    "msg-success": "Ändringarna har sparats",
+    "msg-requireField": "Vänligen fyll i de obligatoriska fälten"
+  },
+  "Funds": {
+    "title": "Donera pengar till välgörenhetsorganisationer",
+    "tab": "Välgörenhet"
+  },
+  "Route": {
+    "title": "Rutt",
+    "date": "Datum",
+    "date-placeholder": "Ange datum",
+    "pin": "Fäst",
+    "company": "Företag",
+    "person": "Kontaktperson",
+    "address": "Adress",
+    "instructions": "Instruktioner",
+    "none": "Inga resultat",
+    "comments": "Kommentarer",
+    "amount": "Belopp"
+  },
+  "Calendar": {
+    "title": "Kalender",
+    "add-event": "Beställ en hämtning",
+    "Calendar": {
+      "edit": "Redigera",
+      "delete": "Radera",
+      "times": "Gånger",
+      "more": "fler evenemang"
+    },
+    "Tooltip": {
+      "red": {
+        "title": "Hög",
+        "text": " - med den röda indikatorn har vi nått vår kapacitet för bokningar av flaskupphämtning, och vi kan inte acceptera nya beställningar för tillfället. Vi uppskattar din förståelse och uppmuntrar dig att återkomma senare för lediga bokningstider."
+      },
+      "yellow": {
+        "title": "Mellan",
+        "text": " - den gula indikatorn signalerar att vår tillgänglighet för flaskupphämtningstjänsten är måttlig. Du kan fortfarande boka din flaskupphämtning från kontoret, men vi rekommenderar att du gör det så snart som möjligt för att säkra din plats."
+      },
+      "green": {
+        "title": "Låg",
+        "text": " - när indikatorn är grön betyder det att vi har gott om tillgänglighet för bokningar av flaskupphämtning. Det här är den bästa tiden att schemalägga upphämtning av flaskor från ditt kontor, vilket säkerställer en smidig och punktlig service."
+      }
+    },
+    "orderBox": "Beställ en papperskorg",
+    "info-founds-text1": "Välj en välgörenhetsorganisation att stödja. Du kan när som helst uppdatera denna inställning på sidan",
+    "info-founds-link": "Inställningar.",
+    "info-founds-text2": "Tack för ditt stöd!"
+  },
+  "Address": {
+    "tab": "Adresser",
+    "add-address": "Lägg till adress",
+    "save": "Spara ändringar"
+  },
+  "Company": {
+    "tab": "Företag",
+    "placeholder": "Företag"
+  },
+  "Permissions": {
+    "tab": "Samtycke",
+    "email-notifications": {
+      "title": "E-postmeddelanden",
+      "new-features-released": "Nya funktioner släppta",
+      "new-blog-posts": "Nya blogginlägg",
+      "payments-made": "Gjorda betalningar"
+    },
+    "mention-company": {
+      "title": "Nämn företaget",
+      "mention-company-website": "Användning av företagets logotyp på CharityBos webbplats/blogg",
+      "mention-company-linkedin": "Nämn företaget i CharityBo blogg eller LinkedIn-inlägg"
+    }
+  },
+  "AboutUs": {
+    "tab": "Om oss",
+    "organization": "Organisation",
+    "registration-number": "Registreringsnummer",
+    "address": "Adress",
+    "application-version": "Applikationsversion",
+    "aboutUs": "Om oss",
+    "mainText": {
+      "firstParagraph": {
+        "firstPart": "Vi är en hängiven grupp entusiaster, inklusive mjukvaruutvecklare och en grafisk designer, som förenas av vår passion för att göra världen till en bättre plats genom kraften i mjukvara och design. ",
+        "boldText": "Vårt uppdrag är att utnyttja vår samlade kompetens och expertis för att skapa innovativa lösningar som tar itu med de utmaningar som samhället står inför. ",
+        "secondPart": "Ert stöd är avgörande för att vi ska kunna förverkliga vår vision, och vi är verkligen tacksamma för ert förtroende för vår verksamhet. "
+      },
+      "secondParagraph": {
+        "firstPart": "Vårt team består av professionella mjukvaruutvecklare med olika färdigheter och erfarenheter inom olika tekniker som JavaScript, TypeScript, React, GraphQL, Serverless, Node.js och AWS. Vi har också en begåvad grafisk designer som kan tillföra kreativa visuella element till dina projekt. Om du någonsin behöver hjälp med något av dessa områden, tveka inte att kontakta oss på ",
+        "mail": "hi@charitybo.fi",
+        "secondPart": " Vi vill gärna bidra med vår expertis och samarbeta med dig i dina projekt. "
+      },
+      "thirdParagraph": "Tillsammans kan vi utnyttja den transformativa potentialen hos mjukvara och design för att skapa en ljusare framtid. Genom att stödja våra ansträngningar ger du oss möjlighet att fortsätta att ha en positiv inverkan på livet för dem som finns runt omkring oss."
+    }
+  },
+  "NotFound": {
+    "text": "Tyvärr, sidan hittades inte",
+    "home": "Gå till hemsidan"
+  },
+  "CompanyStatistics": {
+    "order": "Beställningshämtning",
+    "last-month": "Förra månaden",
+    "total": "Totalt belopp",
+    "latest-operations": "Senaste transaktioner",
+    "form-title": "Beställningshämtning",
+    "form-desc": "Fyll i formuläret nedan för att skicka en exportförfrågan",
+    "start-date": "Datum",
+    "from": "Från",
+    "to": "Till",
+    "comment": "Kommentar",
+    "comment-placeholder": "Ange kommentar",
+    "submit": "Skicka",
+    "success-title": "Ansökan slutförd",
+    "success-desc": "Vi kommer att kontakta dig så snart som möjligt med hjälp av de kontakter du angett",
+    "success-button": "Tillbaka hem",
+    "get-started": "Kom igång nu"
+  },
+  "Companies": {
+    "title": "Företag",
+    "access-denied-title": "Du har inte tillgång till den här sidan",
+    "add-button": "Lägg till företag",
+    "company-name": "Företag",
+    "addresses": "Adresser",
+    "instructions":"Instruktioner",
+    "funds": "Medel",
+    "users": "Användare",
+    "date": "Datum"
+  },
+  "DownloadOperationsData": {
+    "download-button": "Ladda ner",
+    "wait": "Vänta...",
+    "startDate": "start datum",
+    "endDate": "slutdatum"
+  },
+  "Popup": {
+    "ManageUser": {
+      "name": "Namn",
+      "name-placeholder": "Skriv in ditt användarnamn",
+      "email": "E-post",
+      "email-placeholder": "Ange användarens e-postadress",
+      "phone": "Telefon",
+      "phone-placeholder": "Ange användartelefon",
+      "add-title": "Lägg till användare",
+      "edit-title": "Redigera användare",
+      "add-button": "Lägg till",
+      "edit-button": "Redigera"
+    },
+    "ManageOperation": {
+      "date": "Datum",
+      "date-placeholder": "Ange datum och tid",
+      "funds": "Medel",
+      "company": "Företag",
+      "status": "Status",
+      "status-process": "I bearbetning",
+      "status-success": "Avslutad",
+      "status-fail": "Misslyckades",
+      "total": "Belopp, EUR",
+      "total-placeholder": "Ange belopp",
+      "payout": "Procent betald, %",
+      "payout-placeholder": "Ange procent betald",
+      "amountPaid": "Betalt belopp, EUR",
+      "amountPaid-placeholder": "Ange inbetalt belopp",
+      "amountKept": "Behållet belopp, EUR",
+      "amountKept-placeholder": "Ange behållet belopp",
+      "timeSpent": "Spenderad tid, min",
+      "timeSpent-placeholder": "Ange spenderad tid",
+      "distanceDriven": "Kört sträcka, km",
+      "distanceDriven-placeholder": "Ange körd sträcka",
+      "add-title": "Lägg till operation",
+      "edit-title": "Redigera operation",
+      "add-button": "Lägg till",
+      "edit-button": "Redigera"
+    },
+    "ManageFund": {
+      "name": "Titeln",
+      "name-placeholder": "Ange titeln",
+      "country": "Landskod",
+      "country-placeholder": "Ange landskod",
+      "address": "Adress",
+      "address-placeholder": "Ange adress",
+      "iban": "IBAN",
+      "iban-placeholder": "Ange IBAN",
+      "reference": "Referensnummer",
+      "reference-placeholder": "Ange referensnummer",
+      "message": "Meddelande",
+      "message-placeholder": "Ange meddelande",
+      "add-title": "Lägg till fond",
+      "edit-title": "Redigera fond",
+      "add-button": "Lägg till",
+      "edit-button": "Redigera",
+      "type-reference": "Referens",
+      "type-message": "Meddelande"      
+    },
+    "ManageEvent": {
+      "start-date": "Datum",
+      "from": "Från",
+      "to": "Till",
+      "comment": "Kommentar",
+      "comment-placeholder": "Ange kommentar",
+      "repeat": "Upprepa varje",
+      "repeat-label": "Upprepa varje",
+      "weekday": "Veckodag",
+      "week": "Vecka",
+      "weeks": "Veckor",
+      "type-once": "En gång",
+      "type-periodic": "Periodisk",
+      "add-title": "Beställ en hämtning",
+      "edit-title": "Redigera pickup",
+      "add-button": "Lägg till",
+      "edit-button": "Redigera",
+      "wait": "Vänta...",
+      "delete": "Ta bort hämtning",
+      "calendar-cancel": "Avbryt",
+      "calendar-done": "Gjort",
+      "Months": {
+        "1": "Januari",
+        "2": "Februari",
+        "3": "Mars",
+        "4": "April",
+        "5": "Maj",
+        "6": "Juni",
+        "7": "Juli",
+        "8": "Augusti",
+        "9": "September",
+        "10": "Oktober",
+        "11": "November",
+        "12": "December"
+      },
+      "address": "Adress",
+      "next-pickup": "Nästa hämtning",
+      "not-available": "Tyvärr är denna dag fullbokad, vänligen välj en annan dag."
+    },
+    "ManageDayEvents": {
+        "schedule-for": "Kalender för",
+        "time": "Tid",
+        "company": "Företag",
+        "unknownName": "Namn okänt"
+    },
+    "DeleteEvent": {
+      "title": "Ta bort hämtning",
+      "text": "Vill du avboka hämtningen den dagen?",
+      "delete-time": "Ta bort denna dag",
+      "delete-event": "Radera helt"
+    },
+    "EditEvent": {
+      "title": "Spara ändringar",
+      "text": "Vill du byta hämtning den dagen?",
+      "edit-time": "Spara till denna dag",
+      "edit-event": "Spara helt"
+    },
+    "TransferMoney": {
+      "title": "Skicka pengar",
+      "title-get-status": "Få transaktionsstatus",
+      "title-generate": "Skapa check",
+      "text-get-status": "Vill du få transaktionsstatus och generera check?",
+      "text-generate": "Vill du generera check från denna transaktion?",
+      "status": "Betalningsstatus",
+      "text": "Vill du skicka pengar till denna fond?",
+      "cancel": "Annullera",
+      "close": "Stänga",
+      "confirm": "Bekräfta",
+      "edit": "Redigera fond",
+      "invalid-data": "Du kan inte fortsätta utan nödvändiga uppgifter. Redigera fond för att fortsätta"
+    },
+    "SuggestOrganization": {
+      "title": "Föreslå organisation",
+      "name": "Namn",
+      "name-placeholder": "Ange organisationens namn",
+      "url": "URL",
+      "url-placeholder": "Ange URL",
+      "submit": "Skicka",
+      "success-title": "Din begäran har godkänts",
+      "success-desc": "Vi kommer att kontakta dig så snart som möjligt med hjälp av de kontakter du angett",
+      "close": "Stäng"
+    },
+    "AddAddress": {
+      "title": "Lägg till adress",
+      "add-button": "Lägg till",
+      "address-placeholder": "Adress",
+      "instruction-placeholder": "Instruktioner"
+    },
+    "DeleteAddress": {
+      "title": "Vill du ta bort den här adressen?",
+      "text": "Efter radering av en adress kommer information om den och alla händelser som är kopplade till den att raderas. Är du säker på att du vill göra det här?",
+      "delete-btn": "Radera",
+      "cancel": "Annullera"
+    },
+    "SuggestNewFeature": {
+      "title": "XL-pickup",
+      "text": "Vi testar för närvarande nya funktioner som gör det möjligt för företag att donera andra föremål som kräver en större bil, t.ex. möbler, datorutrustning osv. Om du är intresserad av att delta i detta eller om du har något annat förslag på hur CharityBo kan ge mer värde, kan du skicka in en begäran om aktivering av en funktion genom att klicka på knappen nedan.",
+      "button": "Förfrågan om åtkomst",
+      "textareaPlaceholder": "Skriv några ord om vad du skulle vara intresserad av att donera och andra tankar och förslag.",
+      "requestAccepted": {
+        "title": {
+          "firstParagraph": "Din begäran ",
+          "secondParagraph": "har mottagits"
+        },
+        "text": "Vårt team kommer att granska din begäran och följa upp dig via e-post för att bekräfta aktiveringen av funktionen. För närvarande kan du boka XL-hämtning med hjälp av standardknappen “Beställ hämtning”. Det är bara att nämna i kommentaren att du behöver en större bil.",
+        "btn": "Stäng"
+      }
+    },
+    "OrderBox": {
+      "add-title": "Beställ en papperskorg",
+      "edit-title": "Redigera en papperskorg",
+      "amount": "Belopp",
+      "address": "Adress",
+      "start-date": "Datum",
+      "from": "från",
+      "to": "till",
+      "comments-placeholder": "Ange kommentar",
+      "add-button": "Lägg till en beställning",
+      "edit-button": "Redigera ordning",
+      "checkPicture": "Kapaciteten är 125 l och de inre måtten är 38 x 35 x 75 cm. Du kan se bilden ",
+      "link": "här",
+      "wait": "Vänligen vänta...",
+      "delete": "Ta bort en papperskorg"
+    },
+    "SendLetter": {
+      "title": "Skicka ett brev",
+      "suggestFunds": "Föreslå fonder",
+      "btn": "Skicka",
+      "btnClose": "Stäng",
+      "text": {
+        "firstParagraph": "Ditt brev",
+        "secondParagraph": "har skickats"
+      }
+    }
+  },
+  "errors": {
+    "user-not-exist": "Användare finns inte",
+    "user-exist": "Användaren finns redan",
+    "user-not-active": "Användare avaktiverad",
+    "company-exist": "Företaget finns redan. Nya användare måste läggas till av dina kollegor",
+    "code-wrong": {
+      "firstPart": "Koden är felaktig.",
+      "secondPart": "försök kvar."
+    },
+    "code-required": "Ange koden från din e-post i fältet ovan",
+    "email-wrong-format": "E-post har ett ogiltigt format",
+    "email-required": "Skriv in e-mail",
+    "name-required": "Namn krävs",
+    "name-length": "Namnets längd måste vara mindre än 70 tecken",
+    "phone-required": "Telefon krävs",
+    "date-required": "Skriv in Datum",
+    "date-interval": "startdatumet måste vara före slutdatumet",
+    "company-required": "Skriv in Företag",
+    "field-required": "Fältet är obligatoriskt",
+    "comment-length": "Kommentarslängden måste vara mindre än 2 000 tecken",
+    "address-required": "Adress krävs",
+    "address-length": "Adresslängden måste vara mer än 1 ord",
+    "country-required": "Landskod krävs",
+    "country-length": "Landskod längd måste vara mindre än 3 tecken",
+    "iban-required": "IBAN krävs",
+    "iban-length": "IBAN-längden måste vara mindre än 34 tecken",
+    "message-required": "Meddelande krävs",
+    "message-length": "Meddelandets längd måste vara mindre än 140 tecken",
+    "reference-required": "Referens krävs",
+    "reference-length": "Referenslängden måste vara mindre än 25 tecken"
+  },
+  "success": {
+    "settings": "Inställningarna har sparats"
+  }
+}

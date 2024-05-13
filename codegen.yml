@@ -1,0 +1,13 @@
+overwrite: true
+schema: ${REACT_APP_API_URL}/graphql
+documents: "src/graphql/*.ts"
+generates:
+  src/types/graphql.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+    config:
+      preResolveTypes: false
+require: 
+  - dotenv/config
