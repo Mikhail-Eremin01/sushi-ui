@@ -9,7 +9,6 @@ import { cache } from "./cache/cache"
 import { IToken } from "./types/types"
 import App from "./App"
 import reportWebVitals from "./reportWebVitals"
-import './i18n'
 
 import "./index.css"
 

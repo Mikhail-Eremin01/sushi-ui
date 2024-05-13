@@ -2,7 +2,7 @@ import React from 'react'
 import classNames from 'classnames'
 import { useLocation, useNavigate } from 'react-router-dom'
 import useOnClickOutside from  '../../../hooks/useOnClickOutside'
-import { userEditVar, operationEditVar, eventEditVar, eventDeleteVar, fundEditVar, transferMoneyVar  } from '../../../cache/cache'
+import { transferMoneyVar  } from '../../../cache/cache'
 
 import './styles.css'
 
@@ -20,11 +20,6 @@ const Popup: React.FC<IPopupProps> = props => {
 
     const close = () => {
         navigate(location.pathname+location.search)
-        userEditVar(null)
-        operationEditVar(null)
-        eventEditVar(null)
-        eventDeleteVar(null)
-        fundEditVar(null)
         transferMoneyVar(null)
     }
 
