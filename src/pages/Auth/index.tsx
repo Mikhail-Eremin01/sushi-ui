@@ -8,6 +8,7 @@ const Auth: React.FC = () => {
         <div className="auth">
             <div className="auth__wrap">
                 <div className="auth__logo">
+                    <div>Приветик, маленький. Шо ты?</div>
                     <LogoIcon className="auth__logo-icon" />
                 </div>
             </div>
