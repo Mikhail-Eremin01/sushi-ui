@@ -1,5 +1,5 @@
 {
-  "name": "char-ui",
+  "name": "sushi-ui",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:test": "CI=false env-cmd -f .env.test npm run build",
+    "build:test": "env-cmd -f .env.test npm run build",
     "build:stage": "env-cmd -f .env.stage npm run build",
     "codegen": "graphql-codegen --require dotenv/config --config codegen.yml --watch \"src/graphql/*.ts\" dotenv_config_path=.env.development"
   },
